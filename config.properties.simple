@@ -1,16 +1,16 @@
-KERNEL_SOURCE=https://github.com/xperiaossdev/kernel_sony_sagami
-KERNEL_SOURCE_BRANCH=Krispy-v1.3
-KERNEL_CONFIG=pdx215_defconfig
+KERNEL_SOURCE=https://github.com/lolipuru/kernel_sony_sm8250
+KERNEL_SOURCE_BRANCH=T
+KERNEL_CONFIG=pdx206_defconfig
 KERNEL_IMAGE_NAME=Image
 ARCH=arm64
 
 ENABLE_CLANG=true
-USE_AOSP_CLANG=true
+USE_AOSP_CLANG=false
 AOSP_CLANG_SYSTEM=linux-x86
 AOSP_CLANG_BRANCH=master
 AOSP_CLANG_VERSION=r450784e
-USE_CUSTOM_CLANG=false
-CUSTOM_CLANG_SOURCE=https://github.com/magojohnji/ZyCromerZ-Clang.git
+USE_CUSTOM_CLANG=true
+CUSTOM_CLANG_SOURCE=https://github.com/ZyCromerZ/Clang/releases/download/18.0.0-20230930-release/Clang-18.0.0-20230930.tar.gz
 CUSTOM_CLANG_BRANCH=main
 
 ENABLE_GCC=true
@@ -47,8 +47,8 @@ MIX_KERNELSU_MAGISK_BOOT_IMAGE=false
 
 DISABLE-LTO=false
 DISABLE_CC_WERROR=false
-ADD_KPROBES_CONFIG=false
-ADD_OVERLAYFS_CONFIG=false
+ADD_KPROBES_CONFIG=true
+ADD_OVERLAYFS_CONFIG=true
 ENABLE_CCACHE=true
 NEED_DTBO=false
 BUILDER_HOST=Github-Action
