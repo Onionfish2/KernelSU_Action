@@ -1,5 +1,8 @@
 name: Build example
 on:
+  on:
+  schedule:
+    - cron: "0 12 * * MON"
   workflow_dispatch:
     inputs:
       release:
