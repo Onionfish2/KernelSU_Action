@@ -1,5 +1,5 @@
-KERNEL_SOURCE=https://github.com/lolipuru/kernel_sony_sm8250
-KERNEL_SOURCE_BRANCH=T
+KERNEL_SOURCE=https://github.com/Onionfish2/Lols-kernel_sony_sm8250
+KERNEL_SOURCE_BRANCH=rebase
 KERNEL_CONFIG=pdx203_defconfig
 KERNEL_IMAGE_NAME=Image
 ARCH=arm64
