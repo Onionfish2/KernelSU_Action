@@ -35,8 +35,8 @@ KERNELSU_INSTALLER=https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/
 KERNELSU_TAG=main
 KSU_EXPECTED_SIZE=
 KSU_EXPECTED_HASH=
-BUILD_KERNELSU_BOOT_IMG=false
-KERNELSU_SOURCE_BOOT_IMAGE=
+BUILD_KERNELSU_BOOT_IMG=true
+KERNELSU_SOURCE_BOOT_IMAGE=https://github.com/Onionfish2/BootIMGExtractAction/releases/download/pdx206-u/magisk_patched-26300_lfrna.img
 
 ENABLE_MAGISK=false
 MAGISK_APK=https://github.com/topjohnwu/Magisk/releases/download/v26.1/Magisk-v26.1.apk
