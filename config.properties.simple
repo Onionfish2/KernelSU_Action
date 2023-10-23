@@ -1,5 +1,5 @@
-KERNEL_SOURCE=https://github.com/Onionfish2/stockkernel_sony_sm8250
-KERNEL_SOURCE_BRANCH=main
+KERNEL_SOURCE=https://github.com/sonyxperiadev/kernel-copyleft
+KERNEL_SOURCE_BRANCH=58.0.A.10.xxx
 KERNEL_CONFIG=defconfig
 KERNEL_IMAGE_NAME=Image
 ARCH=arm64
